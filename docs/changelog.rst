@@ -117,6 +117,10 @@ Other changes:
 - Refactored library.py file by splitting it into multiple modules within the
   beets/library directory.
 - Added a test to check that all plugins can be imported without errors.
+- UI: Update default ``text_diff_added`` color from **bold red** to **bold
+  green.**
+- UI: Use ``text_diff_added`` and ``text_diff_removed`` colors in **all** diff
+  comparisons.
 
 2.3.1 (May 14, 2025)
 --------------------
